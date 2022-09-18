@@ -1,0 +1,66 @@
+h2, p {
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+body{
+  margin: 0;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px #0005;
+  overflow: hidden;
+  width: 70%;
+  max-width: 600px;
+  min-height: 150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.card__container{
+  display: flex;
+  flex-direction: column;
+  
+  text-align: end;
+  height: 70px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card__button{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 0;
+  margin-right: 20px;
+  font-size: 1.35rem;
+  color: #0005;
+}
+
+.card__button:hover{
+ box-shadow: 0 0 20px #0005;
+}
+
+.fa-solid{
+  font-size: 40px;
+}
+
+.card__phrase{
+  display: flex;
+  flex-direction: row;
+  /* align-items: baseline; */
+  justify-content: center;
+  gap: 15px;
+}
