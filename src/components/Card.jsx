@@ -1,4 +1,5 @@
 import React from 'react'
+import Pushbutton from './Pushbutton.jsx'
 
 const Card = ({ randomPhrase, randomColors, getRandomAll }) => {
 
@@ -17,7 +18,7 @@ const Card = ({ randomPhrase, randomColors, getRandomAll }) => {
       </header>
       <div className='card__container'>
         <p className="card__author">{randomPhrase.author}</p>
-        <button className="card__button" onClick={getRandomAll} style={objectBgStyle}>&#62;</button>
+      <Pushbutton getRandomAll={getRandomAll} objectBgStyle={objectBgStyle}/>
       </div>
     </article>
   )
